@@ -1,4 +1,13 @@
+function rotation() {
+
+}
+function inputhandler() {
+
+}
+function render() {
+
+}
 function update() {
-    testy
+
 }
 setInterval(update, 10);
