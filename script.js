@@ -1,4 +1,4 @@
 function update() {
-    etstse
+    testy
 }
 setInterval(update, 10);
