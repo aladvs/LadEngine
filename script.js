@@ -10,9 +10,8 @@ function clearScreen() {
   ctx.clearRect(0, 0, c.width, c.height)
   ctx.translate(c.width / 2, c.height / 2)
 };
-function rotation() {
-
-}
+//function rotation() {
+//}
 function inputhandler() {
 
 }
