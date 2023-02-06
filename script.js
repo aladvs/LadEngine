@@ -60,6 +60,17 @@ function inputhandler() {
 function render() {
 
 }
+function drawTriangle() {
+
+}
+function drawSquare() {
+  drawLine(ctx, -100,100,100,100, 'black', 6);
+  drawLine(ctx,100,100,100,-100,  'black', 6);
+  drawLine(ctx,100,-100,-100,-100 , 'black', 6);
+  drawLine(ctx,-100,-100,-100,100, 'black', 6);
+  //this isn't nesessary, testing coordinate system
+}
 function update() {
+
 }
 setInterval(update, 10);
